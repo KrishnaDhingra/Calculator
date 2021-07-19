@@ -13,6 +13,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: monospace;
+
 }
 .container{
   min-height: 45%;
@@ -184,10 +185,10 @@ ul li{
   }
 }
 
-.output_container2{
+.output_container2, .output_container3{
   width: 100%;
 }
-.output2{
+.output2, .output3{
   width: 100%;
   color: white;
   display: flex;
@@ -195,26 +196,26 @@ ul li{
   align-items: center;
   padding-left: 1rem;
 }
-.first_output2{
+.first_output2, .first_output3{
   margin-top: -10px;
   width: 95.5%;
   height: 3rem;
   font-size: 3rem;
   font-weight: light;
 }
-.second_output2{
+.second_output2, .second_output3{
   height: 4.5rem;
   font-size: 3rem;
   font-weight: light;
 }
 
-.inner2{
+.inner2, .inner3{
   margin-top: 2rem;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.btn1{
+.btn1, .btn2{
   font-family: monospace;
   height: 6rem;
   border: 1.7px solid rgb(39, 39, 39);
@@ -240,8 +241,10 @@ select{
   font-family: monospace;
   outline: none;
   font-size: 1rem;
+  appearance: none;
 }
-#first_select, #second_select{
+
+#first_select, #second_select, #first_select3, #second_select3{
   padding: 1rem 1rem;
 }
 
@@ -249,5 +252,5 @@ select{
   display: none;
 }
 .inner2, .output_container2{
-  /* display: none; */
+  display: none;
 }
